@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  align-self: center;
+}
+
+.alert-heading {
+  font-size: 39px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 23px;
+  margin-top: 11px;
+  line-height: 0;
+}
+
+.description {
+  font-size: 17px;
+  margin-top: 34px;
+  margin-bottom: 0px;
+  width: 90%;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.icon-content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .alert-heading {
+    font-size: 22px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
